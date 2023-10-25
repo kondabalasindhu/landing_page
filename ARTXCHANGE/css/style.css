@@ -1,0 +1,222 @@
+* {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+header {
+  align-items: center;
+}
+header .great .title {
+  align-items: center;
+  font-size: 70px;
+  font-weight: 900;
+  background: linear-gradient(180deg, #0b056c -83.73%, #dd33e2 141.57%);
+  background-clip: text;
+  -webkit-background-clip: text;  
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;  
+}
+header .great .angle {
+  align-items: center;
+  font-size: 40px;
+  font-weight: 400;
+  width: 60%;
+  color: rgba(50, 19, 86, 1);
+}
+header .great .btn-primary {
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #8E0892;
+  border-color: #8E0892;
+  border-radius: 50px;
+  padding: 10px 32px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+      font-size: 1.2rem;
+  }
+}
+
+/*.ht-100 {
+  height: 100vh;
+}*/
+.m-artworks .multiple {
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+    color: #681aa1;
+}
+.m-artworks .slick-slider {
+  width: 100%;
+  background-color: transparent;
+}
+.slick-slider .slick-track {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.slick-slider .slick-slide {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 0px;
+  margin: 10px 100px;
+  background-color: white;
+  transition: all 0.3s ease;
+  height: auto;
+  text-align: center;
+  max-width: 220px;
+}
+.slick-slider .slick-slide.slick-current, .slick-slider .slick-slide.slick-center {
+  padding: 30px 0px;
+  transform: scale(1.5);
+}
+
+.feature {
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.gallery_prev h3 {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 88px;
+  color: #681aa1;
+}
+.feature .multipler {
+  color: #681AA1;
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5;
+}
+.feature .card {
+  border: 3px solid;
+  border-color: #f0f0f0;
+  border-radius: 10px;
+    border-image-slice: 3;
+/*  border-image-source: linear-gradient( 270deg, #F6D242 15%, #FD6E6A 95%); */
+  border-image-source: linear-gradient(224.69deg, #8E0892 2.26%, rgba(0, 0, 0, 0) 51.13%, #8E0892 100%);
+}
+p.para.mb-4 {
+  font-size: 30px;
+  line-height: 38px;
+  color: #060518;
+}
+
+h4.our {
+  font-weight: 700;
+  font-size: 60px;
+  color: #842b81;
+  margin-top: 20px;
+}
+
+.faq-section .questiontag {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.faq-section h2 {
+  font-size: 50px;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+.faq-section .accordion-item {
+    border-width: 0 0 1px 0;
+}
+.faq-section .accordion-header, .faq-section .accordion-button {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 30px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.faq-section .accordion-body {
+    padding: 1rem 0rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+.faq-section .accordion-button::after {
+    content: "";
+    transform: rotate(-90deg);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-size: 2.25rem;
+}
+.faq-section .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(0deg);
+}
+.faq-section .accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    box-shadow: inherit;
+}
+.partners h2 {
+  font-size: 70px;
+  color: #000;
+  font-weight: 400;
+}
+.footer {
+  color: white;
+  background: #080721;
+}
+footer .artlogo {
+  font-weight: 900;
+  letter-spacing: 0.19em;
+  background: linear-gradient(180deg, #0b056c -83.73%, #dd33e2 141.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -2.5rem;
+  margin-bottom: 2.5rem;
+}
+footer h2.menu {
+ color: white;
+  font-weight: 900;
+  font-size: 25px;
+}
+footer ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+footer ul li {
+  margin-bottom: 1.2rem;
+  opacity: 0.6;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+footer ul li:hover, footer ul li:hover a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+}
+.marketing h2 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #000000;
+}
+.auction_all .d-flex {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0;
+  align-items: center;
+  padding: 8px 10px;
+}
+.auction_all .col-3 {
+  position: relative;
+}

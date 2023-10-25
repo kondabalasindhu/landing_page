@@ -1,0 +1,30 @@
+.nav-logo {
+	max-height: 25px;
+}
+
+.form_enquery {
+    position: absolute;
+    width: 300px;
+    min-height: 450px;
+    right: 0;
+    top: 80px;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 0.1px #989898;
+}
+.banner-img {
+	background-image: url(../assets/images/1.png);
+	height: 540px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-content {
+	position: relative;
+}
+.box-bottom {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 16px;
+}

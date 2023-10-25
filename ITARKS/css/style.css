@@ -1,0 +1,172 @@
+body {
+    font-family: 'Nunito';
+    font-size: 16px;
+    background-color: white;
+}
+
+.nav.nav-pills {
+    list-style-type: none;
+    display: flex;
+    width: 75%;
+
+    justify-content: end;
+}
+
+.nav.nav-pills a {
+    color:white;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav.nav-pills li {
+    color: #000;
+    font-size: 16px;
+    padding-left: 48px;
+    padding-right: 20px;
+    font-family: 'Poppins';
+}
+
+.nav.nav-pills .active a {
+    color:
+        #BA4406;
+    border-bottom: 2px solid rgba(186, 68, 6, 1);
+    border-radius: 0;
+}
+
+header {
+    align-items: center;
+    /* background-image: url(../images/Mask/ Group/(1).png); */
+    background-image: url(../images/sindu.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 62px;
+    display: block;
+    min-height: 620px;
+    position: relative;
+
+    
+
+
+}
+
+.container.great {
+    padding-bottom: 242px;
+    /*  background-image: url(../images/bg_img.png);*/
+}
+
+
+.button1 {
+    background-color: #0495D6;
+    font-size: 16px;
+    width: 137;
+    height: 54px;
+    min-width: 178px;
+    font-weight: 500;
+}
+
+.button2 {
+    background-color: #BA4406;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.box {
+    min-height: 298px;
+    background-color: #C4C4C4;
+}
+
+.start {
+    background-color: #C4C4C4;
+    min-height: 298px;
+    width: 402px;
+}
+
+.green h2 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.row.main-section {
+    padding-top: 167px;
+}
+
+.anu {
+    font-size: 18px;
+}
+
+.ashu {
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.h2-border {
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.row.durga {
+    width: 1100px;
+    margin: 0 auto 50px auto;
+}
+
+h1.font-weight-bolder {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.read h2 {
+    font-weight: 700;
+}
+
+.anu p {
+    float: right;
+}
+
+.hh a {
+    padding-left: 20px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.hh{
+    background: #2D2E2F;
+    color: #fff !important;
+}
+textarea.form-control.mb-5 {
+    min-height: 170px;
+    resize: none;
+}
+.text-center {
+    /* text-align: center !important; */
+  
+}
+.circle_s {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle_s img {
+    max-width: 67%;
+}
+.bg-light {
+    min-height: 228px;
+}
